@@ -85,24 +85,24 @@ const (
 	NOTE_MODE_KEYWORD      = "/"
 
 	// theme loosely based on https://github.com/GothenburgBitFactory/taskwarrior/blob/2.6.0/doc/rc/dark-256.theme
-	TABLE_MAX_WIDTH      = 160 // keep it readable
-	TABLE_COL_GAP        = 2   // differentiate columns
-	MODE_HEADER          = 4
-	FG_DEFAULT           = 250
-	BG_DEFAULT_1         = 233
-	BG_DEFAULT_2         = 232
-	MODE_DEFAULT         = 0
-	FG_ACTIVE            = 233
-	BG_ACTIVE            = 250
-	BG_PAUSED            = 236 // task that has been started then stopped
-	FG_PRIORITY_CRITICAL = 160
-	FG_PRIORITY_HIGH     = 166
-	FG_PRIORITY_NORMAL   = FG_DEFAULT
-	FG_PRIORITY_LOW      = 245
+	TABLE_MAX_WIDTH             = 160 // keep it readable
+	TABLE_COL_GAP               = 2   // differentiate columns
+	MODE_HEADER                 = 4
+	FG_DEFAULT                  = 250
+	BG_DEFAULT_1                = 233
+	BG_DEFAULT_2                = 232
+	MODE_DEFAULT                = 0
+	FG_ACTIVE                   = 233
+	BG_ACTIVE                   = 250
+	BG_PAUSED                   = 236 // task that has been started then stopped
+	FG_PRIORITY_CRITICAL        = 160
+	FG_PRIORITY_HIGH            = 166
+	FG_PRIORITY_NORMAL          = FG_DEFAULT
+	FG_PRIORITY_LOW             = 245
 	FG_ACTIVE_PRIORITY_CRITICAL = 124
 	FG_ACTIVE_PRIORITY_HIGH     = 130
 	FG_ACTIVE_PRIORITY_LOW      = 238
-	FG_NOTE              = 240
+	FG_NOTE                     = 240
 )
 
 // for import (etc) it's necessary to have full context.

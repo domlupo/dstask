@@ -20,7 +20,7 @@ func MustGetTermSize() (int, int) {
 	if !(isatty.IsTerminal(fd) || isatty.IsCygwinTerminal(fd)) {
 		ExitFail("Not a TTY")
 	}
-	
+
 	var info windows.ConsoleScreenBufferInfo
 	if err := windows.GetConsoleScreenBufferInfo(windows.Handle(fd), &info); err != nil {
 		return 80, 24
